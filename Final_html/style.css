@@ -1,0 +1,171 @@
+/* RESET & GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background-color: #f5f7fa;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 16px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.navbar a:hover {
+  color: #fbc531;
+}
+
+/* SECTIONS */
+section {
+  min-height: 100vh;
+  padding: 100px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+/* HOME / HERO SECTION */
+#home {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #ffffff;
+}
+
+#home h1 {
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+/* HOME FEATURE POINTS */
+.home-points {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.point-box {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 14px 26px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  backdrop-filter: blur(5px);
+}
+
+/* ABOUT SECTION */
+#about {
+  background-color: #ffffff;
+}
+
+#about h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+#about p {
+  font-size: 17px;
+  max-width: 850px;
+  margin: 15px auto;
+  color: #555;
+}
+
+/* PROJECTS SECTION */
+#projects {
+  background: linear-gradient(to bottom, #f1f2f6, #dfe4ea);
+}
+
+#projects h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.project-box {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 20px auto;
+  width: 75%;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-box:hover {
+  transform: translateY(-5px);
+}
+
+.project-box h3 {
+  color: #3742fa;
+  margin-bottom: 10px;
+}
+
+.project-box p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.project-box a {
+  display: inline-block;
+  padding: 10px 22px;
+  background-color: #3742fa;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.project-box a:hover {
+  background-color: #2f3542;
+}
+
+/* CONTACT SECTION */
+#contact {
+  background: linear-gradient(to right, #2f3640, #1e272e);
+  color: white;
+}
+
+#contact h1 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+#contact p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #dcdde1;
+}
